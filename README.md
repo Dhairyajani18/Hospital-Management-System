@@ -4,16 +4,26 @@
 The Hospital Management System is a Java-based console application designed to manage hospital operations efficiently. It allows administrators to handle patients, doctors, appointments, billing, and room allocation using JDBC and core Data Structures.
 
 🚀 Features
-👨‍⚕️ Admin Functionalities
-Patient Management (Add, View, Update, Delete)
-Doctor Management (Add, Remove, Update, View)
-Appointment Management
-Billing System (Inpatient & Outpatient)
-Room Management (Assign & Track Rooms)
-User Management (Admin/Staff)
-Waiting List Management (Queue)
-View All Appointments
-Secure Login & Logout
+
+🔐 1. Login System:
+User enters username & password
+
+System verifies credentials from database
+
+Based on role (Admin / Doctor / Patient), dashboard is displayed.
+
+👨🏻‍💼 Admin Module:Manage patients, doctors, appointments, billing, and room allocation with full control.
+
+👨‍⚕️ Doctor Module:View profile, appointments, schedules, update availability, and generate patient bills.
+
+🧑‍🤝‍🧑 Patient Module:Register, book/cancel appointments, and view details.
+
+🛏️ Room Management (Data Structures):Efficient allocation of ICU, Private, and General rooms using Queue and Linked List.
+
+📅 Appointment System:Doctor-wise scheduling with specialization, charges, and time slots.
+
+💰 Billing System:Auto-calculation from recent appointment and manual entry option for customized billing (room + treatment charges for inpatients).
+
 
 🧠 Data Structures Used
 Queue → Managing patient waiting list
